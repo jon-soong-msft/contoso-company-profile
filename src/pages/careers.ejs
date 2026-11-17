@@ -1,0 +1,51 @@
+<%- include('../partials/head', { title: careers.title, description: careers.description }) %>
+<%- include('../partials/header') %>
+<%- include('../partials/page-hero', careers.hero) %>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow"><%= careers.why.eyebrow %></p>
+      <h2><%= careers.why.heading %></h2>
+    </div>
+    <div class="grid grid-3">
+      <% careers.why.benefits.forEach(function (benefit) { %>
+      <article class="card">
+        <h3><%= benefit.title %></h3>
+        <p><%= benefit.text %></p>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow"><%= careers.openRoles.eyebrow %></p>
+      <h2><%= careers.openRoles.heading %></h2>
+      <p><%= careers.openRoles.intro %></p>
+    </div>
+    <div class="grid grid-3">
+      <% careers.openRoles.roles.forEach(function (role) { %>
+      <article class="card">
+        <h3><%= role.title %></h3>
+        <p><strong><%= careers.openRoles.locationLabel %>:</strong> <%= role.location %></p>
+        <p><strong><%= careers.openRoles.teamLabel %>:</strong> <%= role.team %></p>
+        <p><%= role.summary %></p>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2><%= careers.apply.heading %></h2>
+      <p><%= careers.apply.text %></p>
+    </div>
+    <a class="btn btn-light" href="mailto:<%= careers.apply.email %>"><%= careers.apply.label %>: <%= careers.apply.email %></a>
+  </div>
+</section>
+<%- include('../partials/footer') %>
