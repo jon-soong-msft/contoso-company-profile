@@ -10,6 +10,7 @@ on:
 permissions:
   contents: read
   issues: read
+  copilot-requests: write
 engine: copilot
 strict: true
 timeout-minutes: 10
