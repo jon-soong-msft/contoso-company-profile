@@ -1,0 +1,62 @@
+{
+  "title": "Careers",
+  "description": "Explore careers at Contoso and join our cloud, security and data teams.",
+  "hero": {
+    "eyebrow": "Careers at Contoso",
+    "heading": "Build your career with Contoso",
+    "lead": "Join our teams as we grow and build secure, reliable technology across Southeast Asia.",
+    "image": "assets/img/contoso-team.webp",
+    "imageAlt": "Contoso colleagues planning a project together"
+  },
+  "why": {
+    "eyebrow": "Life at Contoso",
+    "heading": "Why work at Contoso",
+    "benefits": [
+      {
+        "title": "Benefits",
+        "text": "We support our people with benefits designed to help them thrive at work and beyond."
+      },
+      {
+        "title": "Learning budget",
+        "text": "Keep growing with a learning budget for professional development and new skills."
+      },
+      {
+        "title": "Hybrid work",
+        "text": "Work with your team to balance time together in the office with hybrid work."
+      }
+    ]
+  },
+  "openRoles": {
+    "eyebrow": "Join our team",
+    "heading": "Open roles",
+    "intro": "Explore opportunities across our teams and locations.",
+    "locationLabel": "Location",
+    "teamLabel": "Team",
+    "roles": [
+      {
+        "title": "Cloud Engineer",
+        "location": "Jakarta",
+        "team": "Cloud & Infrastructure",
+        "summary": "Build and improve cloud platforms with our infrastructure team."
+      },
+      {
+        "title": "Security Analyst",
+        "location": "Surabaya",
+        "team": "Cybersecurity",
+        "summary": "Help our security team monitor and respond to threats."
+      },
+      {
+        "title": "Data Engineer",
+        "location": "Singapore",
+        "team": "Data & AI",
+        "summary": "Create reliable data pipelines and platforms with our data team."
+      }
+    ]
+  },
+  "apply": {
+    "heading": "Ready to join us?",
+    "text": "Email us with the role you are interested in and tell us about your experience.",
+    "label": "Email the careers team",
+    "email": "careers@contoso.com"
+  }
+}
